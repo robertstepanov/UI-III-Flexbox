@@ -359,6 +359,45 @@ ul li {
   list-style-type: square;
 }
 
+/*    Contact Page Styles   */
+
+.contact-image img {
+	height: 250px;
+	margin: auto;
+}
+
+.contact-title {
+	text-align: center;
+	font-size: 2em;
+}
+
+.contact-address {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 40px auto;
+	border: 1px solid grey;
+}
+
+input {
+	margin: 20px;
+	padding: 20px 0;
+	font-size: 1.3em;
+}
+
+.submit-button {
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background: darkgray;
+}
+
 
 /*    Media Queries    */
 
@@ -437,6 +476,22 @@ ul li {
 	.bottom-facts img {
 		width: 90%;
 		margin: 0 auto 20px;
+	}
+
+	/*   Contact Page Mobile   */
+
+	.form-wrapper {
+		width: 95%;
+	}
+
+	.contact-address {
+		text-align: center;
+		margin: auto;
+	}
+
+	form {
+		width: 90%;
+		margin: 10px auto;
 	}
 
 }
