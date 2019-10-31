@@ -338,6 +338,7 @@ footer {
 
 .bottom-facts img {
 	width: 40%;
+	margin: auto;
 }
 
 .list-section {
@@ -356,4 +357,86 @@ ul {
 
 ul li {
   list-style-type: square;
+}
+
+
+/*    Media Queries    */
+
+@media only screen and (max-width: 768px) {
+
+
+
+	/*    Home Page Mobile   */
+
+	.hero {
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.hero img {
+		width: 80%;
+		margin: 25px auto -35px;
+	}
+
+	.about-features {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.features, .about {
+		width: 90%;
+	}
+
+	.other-info {
+		flex-direction: column;
+	}
+
+	.info-one, .info-two, .info-three {
+		width: 90%;
+		margin: 0 auto 40px;
+	}
+
+	/*   Service Page Mobile */
+
+	.nav-logo {
+		flex-direction: column-reverse;
+		margin: 0 auto 15px;
+	}
+
+	.nav-items {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.nav-items a {
+		margin: 0 10px;
+	}
+
+	.service-wrapper {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.service-card {
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.bottom-facts {
+		flex-direction: column-reverse ;
+		width: 90%;
+	}
+
+	.list-section {
+		width: 90%;
+		margin: auto;
+	}
+
+	.bottom-facts img {
+		width: 90%;
+		margin: 0 auto 20px;
+	}
+
 }
